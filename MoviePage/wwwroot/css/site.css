@@ -1,0 +1,37 @@
+body{
+    background-image: url(Pozadina.jpg);
+    background-size: cover;
+}
+html {
+  font-size: 14px;
+  
+}
+.text-center {
+    background: aqua;
+    background: -webkit-linear-gradient(to right, aqua,#0b5872);
+    background: linear-gradient(to right, aqua,#43f5c3);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    
+}
+.table{
+    color:aqua;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
